@@ -1,0 +1,2 @@
+This file contains milestones for the smart-village program.
+1) I need to analyze the Potensi Desa data to create insight
