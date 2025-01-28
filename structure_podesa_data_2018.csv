@@ -1,0 +1,344 @@
+Nomor,Variabel Data,Kategori Isian Data,Keterangan Isian Data
+-1,-2,-3,-4
+1,R101N,,Nama Provinsi
+2,R101,,Kode Provinsi
+3,R102N,,Nama Kabupaten/Kota
+4,R102,,Kode Kabupaten/Kota
+5,R103N,,Nama Kecamatan
+6,R103,,Kode Kecamatan
+7,R104N,,Nama Desa/Kelurahan
+8,R104,,Kode Desa/Kelurahan
+9,R301,"1=Desa  
+2=Kelurahan
+3=UPT/SPT
+4=Nagari",Status Pemerintahan
+10,R302A,"1=Ada  
+2 = Tidak ada",Badan Permusyawaratan Desa/Lembaga Musyawarah Kelurahan
+11,R302B,,Jumlah anggota Badan Permusyawaratan Desa (BPD)/Lembaga Musyawarah Kelurahan (LMK)
+12,R302C,,Jumlah Kegiatan Musyawarah Desa/Kelurahan Selama Tahun 2017
+13,R303,"1=Ada
+2=tidak ada",Ada peta desa/kelurahan yang ditetapkan dalam peraturan bupati/walikota
+14,R304A,"1=Ada  
+2=Tidak ada",Keberadaan satuan lingkungan setempat (sls) di bawah desa/kelurahan
+15,R304B,,Banyaknya jenjang sls di bawah desa/kelurahan
+16,R304C,,Banyaknya sls terkecil di desa/kelurahan
+17,R305A1, ,Wilayah desa/kelurahan terletak di sebanyak ............... pulau
+18,R305B,"1=Lereng/puncak  
+2=Lembah  
+3=Dataran",Topografi wilayah desa/kelurahan
+19,R305C,"1=Ada  
+2=Tidak ada",Keberadaan permukiman penduduk di lereng/puncak
+20,R306A,"1=Ada  
+2=Tidak ada",Keberadaan kantor kepala desa/lurah
+21,R306B,"1=Aset desa/kelurahan
+2=Bukan aset desa/kelurahan",Status kantor kepala desa/lurah 
+22,R306C,"1=Layak  
+2=Tidak layak",Kondisi kantor kepala desa/lurah 
+23,R306D,"1=Di dalam wilayah desa/kelurahan
+2=Di luar wilayah desa/kelurahan",Lokasi kantor kepala desa/lurah 
+24,R307A,"1=Kantor kepala desa/lurah
+2=Bukan kantor kepala desa/lurah",Kegiatan pemerintah desa/kelurahan utama
+25,R308A,"1=Ada  
+2=Tidak ada",Ada wilayah desa/kelurahan yang berbatasan langsung dengan laut
+26,R308B1A,"1=Ada  
+2=Tidak ada",Pemanfaatan laut untuk: Perikanan tangkap (mencakup seluruh biota laut)
+27,R308B1B,"3=Ada 
+4=Tidak ada ",Pemanfaatan laut untuk: Perikanan budidaya  (mencakup seluruh biota laut)
+28,R308B1C,"5=Ada  
+6=Tidak ada",Pemanfaatan laut untuk:
+29,R308B1D,"7=Ada  
+8=Tidak ada",Pemanfaatan laut untuk: wisata bahari
+30,R308B1E,"1=Ada  
+2=Tidak ada",Pemanfaatan laut untuk: transportasi umum
+31,R308B2,"1=Ada  
+2=Tidak ada","Keberadaan tanaman mangrove (misalnya: bakau, api-api, pedada, tanjang, dll.) di desa/kelurahan"
+32,R308B3,"1=Baik 
+2=Sebagian rusak
+3=Rusak",Kondisi magrove:
+33,R309A,"1=Di dalam kawasan hutan  
+2=Di tepi/sekitar kawasan hutan 
+3=Di luar kawasan hutan ",Lokasi wilayah desa/kelurahan terhadap kawasan hutan
+34,R309B,"1=Konservasi
+2=Lindung  
+3=Produksi",Fungsi kawasan hutan/hutan 
+35,R309C,"1=Tinggi
+2=Sedang  
+3=Rendah
+4=Tidak tergantung",Ketergantungan penduduk terhadap kawasan hutan/hutan
+36,R402A,"1=Ada  
+2=Tidak ada
+3=Tidak tahu",Keberadaan warga desa/kelurahan yang sedang bekerja sebagai TKI di luar negeri
+37,R402B1, ,Jumlah TKI laki-laki
+38,R402B2, ,Jumlah TKI perempuan
+39,R402C,"1=Ada 
+2=Tidak ada",Keberadaan agen pengerahan TKI ke luar negeri di desa/kelurahan
+40,R403A,"1=Pertanian 
+2=Pertambangan dan penggalian  
+3=Industri pengolahan (pabrik, kerajinan, dll.)  
+4=Perdagangan besar/eceran dan rumah makan  
+5=Angkutan, pergudangan, komunikasi  
+6=Jasa  
+7=Lainnya ……",Sumber penghasilan utama sebagian besar penduduk desa/kelurahan berasal dari lapangan usaha
+41,R403B,"1=Padi  
+2=Palawija (jagung, kacang-kacangan, ubi-ubian)
+3=Hortikultura (buah-buahan, sayur-sayuran, tanaman hias,tanaman obat-obatan, dll)
+4= Karet
+5=Kelapa sawit
+6=Kopi
+7=Kakao
+8=Kelapa
+9=Lada
+10=Cengkeh
+11=Tembakau
+12=Tebu
+13=Peternakan (sapi, domba, ayam, dll)
+14=Perikanan tangkap (termasuk biota lainnya)
+15=Perikanan budidaya (termasuk biota lainnya)
+16=Budidaya tanaman kehutanan (jati, mahoni, sengon, bambu, dll)
+17=Pemungutan hasil hutan (madu, gaharu, buah-buahan, kayu bakar, dll)
+18=Penangkapan satwa  liar (babi, ayam hutan, kijang, dll)
+19=Penangkaran satwa/tumbuhan liar (arwana, buaya, anggrek, dll)
+20=Jasa pertanian (pembenihan, sewa traktor, rotan, dll)
+21=Lainnya",Jenis komoditi utama yang diproduksi sebagian besar penduduk desa/kelurahan
+42,R403C1,"1=Aspal/beton  
+2=Diperkeras (kerikil, batu, dll)
+3=Tanah  
+4=Lainnya ……..",Jenis prasarana transportasi dari/ke lokasi sentra produksi pertanian ke jalan utama desa/kelurahan
+43,R403C2,"1=Sepanjang tahun
+2=Sepanjang tahun kecuali saat tertentu (ketika turun hujan, pasang, dll)
+3=Sepanjang tahun kecuali sepanjang musim hujan
+4=Tidak dapat dilalui sepanjang tahun",Jalan dari/ke lokasi sentra produksi pertanian ke jalan utama
+44,R404A,"1=Ada 
+2=Tidak ada",Keberadaan produk (barang) unggulan/utama desa/kelurahan
+45,R404B1,,Produk (barang) unggulan desa/kelurahan : 1. Pangan
+46,R404B2,,Produk (barang) unggulan desa/kelurahan : 2. Non pangan
+47,R404C,"1=Ada sebagian besar
+2=Ada sebagian kecil
+3=Tidak ada",Produk unggulan/utama desa/kelurahan ada yang diekspor ke negara lain
+48,R501A1, ,Jumlah keluarga pengguna listrik: PLN (Perusahaan Listrik Negara)
+49,R501A2, ,"Jumlah keluarga pengguna listrik: Non-PLN  (misalnya: swasta, swadaya, atau perseorangan)"
+50,R501B, ,Jumlah keluarga bukan pengguna listrik
+51,R502A,"1=Ada, sebagian besar  
+2=Ada, sebagian kecil
+3=Tidak ada",Penerangan di jalan utama desa/kelurahan
+52,R502B,"1=Listrik diusahakan oleh pemerintah  
+2=Listrik diusahakan oleh nonpemerintah  
+3=Nonlistrik",Jenis penerangan di jalan utama desa/kelurahan
+53,R503A1,"1=Ya 
+2=Tidak ",Bahan bakar untuk memasak yang digunakan oleh keluarga: Gas Kota
+54,R503A2,"3=Ya 
+4=Tidak",Bahan bakar untuk memasak yang digunakan oleh keluarga: LPG 3 kg
+55,R503A3,"5=Ya 
+6=Tidak",Bahan bakar untuk memasak yang digunakan oleh keluarga: LPG lebih dari 3 kg
+56,R503A4,"7=Ya 
+8=Tidak",Bahan bakar untuk memasak yang digunakan oleh keluarga: Minyak Tanah
+57,R503A5,"1=Ya 
+2=Tidak",Bahan bakar untuk memasak yang digunakan oleh keluarga: Kayu Bakar
+58,R503A6,"3=Ya 
+4=Tidak",Bahan bakar untuk memasak yang digunakan oleh keluarga: Lainnya …………………………...
+59,R503B,"1=Gas kota
+2=LPG 3 kg
+3=LPG lebih dari 3 kg
+4=Minyak tanah
+5=Kayu bakar
+6=Lainnya",Bahan bakar untuk memasak sebagian besar keluarga:
+60,R503C,"1=Pembelian
+2=Pengambilan dari kawasan hutan/hutan
+3=Pengambilan dari luar kawasan hutan/hutan
+4=Lainnya","Jika R503a.5 berkode 1, cara memperoleh kayu bakar oleh sebagian besar keluarga:"
+61,R504A1,"1=Ya 
+2=Tidak ","Tempat buang sampah keluarga: Tempat sampah, kemudian diangkut"
+62,R504A2,"3=Ya 
+4=Tidak",Tempat buang sampah keluarga: Dalam lubang atau dibakar
+63,R504A3,"5=Ya 
+6=Tidak",Tempat buang sampah keluarga: Sungai/saluran irigasi/danau/laut
+64,R504A4,"7=Ya 
+8=Tidak",Tempat buang sampah keluarga: Drainase (got/selokan)
+65,R504A5,"1=Ya 
+2=Tidak",Tempat buang sampah keluarga: Lainnya ……………………………….
+66,R504B,"1=Tempat sampah, kemudian dingakut
+2=Dalam lubang atau dibakar
+3=Sungai/saluran irigasi/danau/laut
+4=Drainase (got/selokan)
+5=Lainnya",Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya”)
+67,R504C,"1=Ada, digunakan
+2=Ada, tidak digunakan
+3=Tidak ada",Tempat pembuangan sampah sementara (TPS)
+68,R505A,"1=Jamban sendiri  
+2=Jamban bersama  
+3=Jamban umum 
+4=Bukan jamban",Penggunaan fasilitas buang air besar sebagian besar keluarga di desa/kelurahan
+69,R505B,"1=Tangki/instalasi pengelolaan air limbah
+2=Sawah/koalm/sungai/danau/laut atau pantai/tanah lapang/kebun
+3=Lubang tanah
+4=Lainnya",Tempat pembuangan akhir tinja sebagian besar keluarga
+70,R506,"1=Lubang resapan  
+2=Drainase (got/selokan)  
+3=Sungai/saluran irigasi/danau/laut  
+4=Dalam lubang atau tanah terbuka  
+5=Lainnya",Tempat/saluran pembuangan limbah cair dari air mandi/cuci sebagian besar keluarga
+71,R507A,"1=Air kemasan bermerek
+2=Air isi ulang  
+3=Ledeng dengan meteran (PAM/PDAM)  
+4=Ledeng tanpa meteran  
+5=Sumur bor atau pompa  
+6=Sumur  
+7=Mata air  
+8=Sungai/danau/kolam/waduk/situ/embung/bendungan
+9=Air hujan  
+10=Lainnya",Sumber air untuk minum sebagian besar keluarga berasal dari:
+72,R507B,"1=Ledeng dengan meteran (PAM/PDAM)  
+2=Ledeng tanpa meteran  
+3=Sumur bor atau pompa  
+4=Sumur  
+5=Mata air  
+6=Sungai/danau/kolam/waduk/situ/embung/bendungan
+7=Air hujan  
+8=Lainnya",Sumber air untuk mandi/cuci sebagian besar keluarga berasal dari:
+73,R508A,"1=Ya 
+2=Tidak","Wilayah desa/kelurahan dilalui Saluran Udara Tegangan Ekstra Tinggi (SUTET), Saluran Udara Tegangan Tinggi (SUTT), Saluran Udara Tegangan Tinggi Arus Searah (SUTTAS):"
+74,R508B,"1=Ya 
+2=Tidak",Keberadaan permukiman di bawah SUTET/SUTT/SUTTAS:
+75,R508C1,,Jika ada permukiman di bawah SUTET/SUTT/SUTTAS: Jumlah Lokasi
+76,R508C2,,Jika ada permukiman di bawah SUTET/SUTT/SUTTAS: Jumlah bangunan rumah
+77,R508C3,,Jika ada permukiman di bawah SUTET/SUTT/SUTTAS: Jumlah keluarga (Isian tidak boleh lebih dari isian R401c)
+78,R509AK2,"1=Ya 
+2=Tidak",Keberadaan sungai
+79,R509AK3,"1=Ya 
+2=Tidak",Keberadaan: Saluran Irigasi
+80,R509AK4,"1=Ya 
+2=Tidak",Keberadaan Danau/waduk/situ/bendungan
+81,R509AK5,"1=Ya 
+2=Tidak",Keberadaan Embung
+82,R509B1K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk mandi/cuci
+83,R509B1K3,"1=Ya 
+2=Tidak",Penggunaan saluran irigasi untuk mandi/cuci
+84,R509B1K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk mandi/cuci
+85,R509B1K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk mandi/cuci
+86,R509B2K2,,Penggunaan sungai untuk sumber air minum/memasak
+87,R509B2K3,"1=Ya 
+2=Tidak",Penggunaan saluran irigasi untuk sumber air minum/memasak
+88,R509B2K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk sumber air minum/memasak
+89,R509B2K5,"1=Ya 
+2=Tidak ",Penggunaan embung untuk sumber air minum/memasak
+90,R509B3K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk bahan baku air minum
+91,R509B3K3,"1=Ya 
+2=Tidak",Penggunaan saluran irigasi untuk bahan baku air minum
+92,R509B3K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk bahan baku air minum
+93,R509B3K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk bahan baku air minum
+94,R509B4K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk pengairan/irigasi lahan pertanian
+95,R509B4K3,"1=Ya 
+2=Tidak",Penggunaan saluran irigasi untuk pengairan/irigasi lahan pertanian
+96,R509B4K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk pengairan/irigasi lahan pertanian
+97,R509B4K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk pengairan/irigasi lahan pertanian
+98,R509B5K2,"1=Ya 
+2=Tidak ",Penggunaan sungai untuk pariwisata (komersial)
+99,R509B5K3,"1=Ya 
+2=Tidak ",Penggunaan saluran irigasi untuk pariwisata (komersial)
+100,R509B5K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk pariwisata (komersial)
+101,R509B5K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk pariwisata (komersial)
+102,R509B6K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk perikanan
+103,R509B6K3,"1=Ya 
+2=Tidak",Penggunaan saluran irigasi untuk perikanan
+104,R509B6K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk perikanan
+105,R509B6K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk perikanan
+106,R509B7K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk transportasi
+107,R509B7K3,"1=Ya 
+2=Tidak",Penggunaan saluran irigasi untuk transportasi
+108,R509B7K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk transportasi
+109,R509B8K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk pembangkit listrik
+110,R509B8K3,"1=Ya 
+2=Tidak",Penggunaan saluran irigasi untuk pembangkit listrik
+111,R509B8K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk Pembangkit listrik
+112,R509B8K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk pembangkit listrik
+113,R509B9K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk industri/pabrik
+114,R509B9K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk industri/pabrik
+115,R509B9K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk industri/pabrik
+116,R509B10K2,"1=Ya 
+2=Tidak",Penggunaan sungai untuk lainnya
+117,R509B10K4,"1=Ya 
+2=Tidak",Penggunaan danau/waduk/situ/bendungan untuk lainnya
+118,R509B10K5,"1=Ya 
+2=Tidak",Penggunaan embung untuk lainnya
+119,R510B,"1=Ya 
+2=Tidak",Keberadaan permukiman di bantaran sungai
+120,R510C1,,Jumlah lokasi permukiman di bantaran sungai
+121,R510C2, ,Jumlah bangunan rumah permukiman di bantaran sungai
+122,R510C3, ,Jumlah keluarga permukiman di bantaran sungai
+123,R510D1,"1=Ya 
+2=Tidak",Air sungai tercemar limbah
+124,R510D2A,"1=Ya 
+2=Tidak",Sumber limbah adalah dari pabrik/industri/usaha
+125,R510D2B,"1=Ya 
+2=Tidak",Sumber limbah adalah dari rumah tangga
+126,R510D2C,"1=Ya 
+2=Tidak",Sumber limbah adalah dari lainnya
+127,R510D3,"1=Dalam desa/kelurahan ini  
+2=Luar desa/kelurahan ini
+3=Dalam dan luar desa/kelurahan",Sumber limbah  berlokasi di:
+128,R511A,"1=Ada, dikelola
+2=Ada, tidak dikelola
+3=Tidak ada",Keberadaan mata air  di desa/kelurahan  
+129,R511B,,Jumlah embung di desa/kelurahan
+130,R512A,"1=Ada  
+2=Tidak ada ","Keberadaan permukiman kumuh (sanitasi lingkungan buruk, bangunan padat dan sebagian besar tidak layak huni) di desa/kelurahan"
+131,R512B1, ,Jumlah lokasi permukiman kumuh
+132,R512B2, ,Jumlah bangunan permukiman kumuh
+133,R512B3, ,Jumlah keluarga permukiman kumuh
+134,R513AK2,"1=Ada  
+2=Tidak ada",Kejadian pencemaran lingkungan hidup: air
+135,R513AK3,"1=Rumah tangga  
+2=Pabrik  
+3=Lainnya",Sumber pencemaran air
+136,R513ALK3,,Sumber pencemaran lingkungan hidup yang utama lainnya: air
+137,R513AK4,"1=Ada  
+2=Tidak ada",Pengaduan warga ke aparat desa/kelurahan kejadian pencemaran air
+138,R513BK2,"1=Ada  
+2=Tidak ada",Kejadian pencemaran lingkungan hidup: tanah
+139,R513BK3,"1=Rumah tangga 
+2=Pabrik  
+3=Lainnya",Sumber pencemaran tanah
+140,R513BLK3,,Sumber pencemaran lingkungan hidup yang utama lainnya: tanah
+141,R513BK4,"1=Ada  
+2=Tidak ada",Pengaduan warga ke aparat desa/kelurahan kejadian pencemaran tanah
+142,R513CK2,"1=Ada  
+2=Tidak ada",Kejadian pencemaran lingkungan udara
+143,R513CK3,"1=Rumah tangga  
+2=Pabrik  
+3=Lainnya",Sumber pencemaran udara
+144,R513CLK3,,Sumber pencemaran lingkungan hidup yang utama lainnya: udara
+145,R513CK4,"1=Ada  
+2=Tidak ada",Pengaduan warga ke aparat desa/kelurahan kejadian pencemaran udara
+146,R514A,"1=Ada, sebagian warga terlibat  
+2=Ada, warga tdiak terlibat
+3=Tidak ada kegiatan","Penanaman/pemeliharaan pepohonan di lahan kritis, penanaman mangrove, dan  sejenisnya oleh masyarakat desa/kelurahan"
+147,R514B,"1=Ada, sebagian warga terlibat  
+2=Ada, warga tdiak terlibat
+3=Tidak ada kegiatan","Pengolahan/daur ulang sampah/limbah (reuse, recycle) oleh masyarakat desa/kelurahan"
+148,R515,"1=Ada  
+2=Tidak ada",Kebiasaan masyarakat membakar ladang/kebun untuk proses usaha pertanian
+149,R516,"1=Ada  
+2=Tidak ada","Keberadaan lokasi penggalian Golongan C (misalnya: batu kali, pasir, kapur, kaolin, pasir kuarsa, tanah liat, dll.) di desa/kelurahan"
